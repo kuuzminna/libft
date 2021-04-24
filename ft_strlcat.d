@@ -1,4 +1,4 @@
-ft_strrchr.o: ft_strrchr.c libft.h \
+ft_strlcat.o: ft_strlcat.c libft.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/unistd.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types.h \
