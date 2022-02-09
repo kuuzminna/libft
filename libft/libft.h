@@ -1,10 +1,22 @@
-#ifndef LIBFT_H
-#define LIBFT_H
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/02/09 10:55:26 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 10:56:15 by ggrapefr         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include "stddef.h"
-#include <stdio.h>
+#ifndef LIBFT_H
+# define LIBFT_H
+
+# include <unistd.h>
+# include <stdlib.h>
+# include "stddef.h"
+# include <stdio.h>
 
 int	ft_isspace(char c);
 int	ft_numLen(int n);
@@ -16,7 +28,7 @@ int	ft_isprint(int c);
 int	ft_tolower(int c);
 int	ft_toupper(int c);
 
-int	ft_atoi(const char *str);
+int		ft_atoi(const char *str);
 char	*ft_itoa(int n);
 char	**ft_split(char const *s, char c);
 
@@ -36,7 +48,7 @@ void	ft_putendl_fd(char *s, int fd);
 void	ft_putstr_fd(char *s, int fd);
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n);
-size_t 	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize);
+size_t	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize);
 size_t	ft_strlcpy(char *restrict dst, const char *restrict src, size_t dstsize);
 size_t	ft_strlen(const char *s);
 char	*ft_strchr(const char *s, int c);

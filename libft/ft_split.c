@@ -1,17 +1,30 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/02/09 10:50:02 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 10:54:42 by ggrapefr         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
-char	**ft_split(char const *s, char c)
-{
-	char **a;
-	int i;
 
-	i = 0;
-	while s[i])
-	{
-		while (ft_isspace(s[i]))
-			i++;
-		while (!ft_isspace(s[i]))
-		{
+// char	**ft_split(char const *s, char c)
+// {
+// 	char **a;
+// 	int i;
 
-		}
-	}
-}
+// 	i = 0;
+// 	while (s[i])
+// 	{
+// 		while (ft_isspace(s[i]))
+// 			i++;
+// 		while (!ft_isspace(s[i]))
+// 		{
+
+// 		}
+// 	}
+// }
