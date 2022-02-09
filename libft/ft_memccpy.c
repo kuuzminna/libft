@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 10:48:26 by ggrapefr          #+#    #+#             */
-/*   Updated: 2022/02/09 10:48:27 by ggrapefr         ###   ########.fr       */
+/*   Created: 2022/02/09 11:18:57 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 11:18:58 by ggrapefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memccpy(void *restrict dst, const void *restrict src,
+void	*ft_memccpy(void *dst, const void *src,
 	int c, size_t n)
 {
 	unsigned char	*str1;

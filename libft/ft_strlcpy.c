@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 10:50:21 by ggrapefr          #+#    #+#             */
-/*   Updated: 2022/02/09 10:50:22 by ggrapefr         ###   ########.fr       */
+/*   Created: 2022/02/09 11:19:37 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 11:19:38 by ggrapefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcpy(char *restrict dst, const char *restrict src, size_t dstsize)
+size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {
 	size_t	i;
 

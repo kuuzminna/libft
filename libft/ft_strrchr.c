@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 10:47:11 by ggrapefr          #+#    #+#             */
-/*   Updated: 2022/02/09 10:47:12 by ggrapefr         ###   ########.fr       */
+/*   Created: 2022/02/09 11:19:50 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 11:19:51 by ggrapefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,11 +21,11 @@ char	*ft_strrchr(const char *s, int c)
 	j = 0;
 	while (i < ft_strlen(s) + 1)
 	{
-		if (s[i] == c)
+		if (s[i] == (char)c)
 			j = i;
 		i++;
 	}
-	if (s[j] == c)
+	if (s[j] == (char)c)
 		return ((char *)&s[j]);
 	return (NULL);
 }

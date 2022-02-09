@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 10:48:29 by ggrapefr          #+#    #+#             */
-/*   Updated: 2022/02/09 10:48:30 by ggrapefr         ###   ########.fr       */
+/*   Created: 2022/02/09 11:19:00 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 11:19:01 by ggrapefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,14 +19,12 @@ void	*ft_memchr(const void *s, int c, size_t n)
 
 	str = (unsigned char *) s;
 	sym = (unsigned char) c;
-	while (*str && n)
+	while (n)
 	{
 		if (*str == sym)
 			return (str);
 		str++;
 		n--;
 	}
-	if (n > 0 && sym == '\0')
-		return (str);
 	return (NULL);
 }

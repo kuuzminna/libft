@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 10:46:04 by ggrapefr          #+#    #+#             */
-/*   Updated: 2022/02/09 10:50:46 by ggrapefr         ###   ########.fr       */
+/*   Created: 2022/02/09 11:18:31 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 11:18:37 by ggrapefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isspace(char c)
+static int	ft_isspace(char c)
 {
 	if (c == ' ' || c == '\n' || c == '\f'
 		|| c == '\t' || c == '\v' || c == '\r')

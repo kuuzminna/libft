@@ -5,14 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ggrapefr <ggrapefr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/02/09 10:50:18 by ggrapefr          #+#    #+#             */
-/*   Updated: 2022/02/09 10:54:19 by ggrapefr         ###   ########.fr       */
+/*   Created: 2022/02/09 11:19:35 by ggrapefr          #+#    #+#             */
+/*   Updated: 2022/02/09 11:20:20 by ggrapefr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *restrict dst, const char *restrict src, size_t dstsize)
+size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	dstlen;
 	size_t	srclen;
